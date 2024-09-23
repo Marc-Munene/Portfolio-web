@@ -1,0 +1,47 @@
+body{
+    font-family: "SUSE", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-image: radial-gradient(circle at center center, #05a081, #3e3e3e), repeating-radial-gradient(circle at center center, #05a081, #05a081, 40px, transparent 80px, transparent 40px);
+    background-blend-mode: none;
+    font-size: 20px;
+    color: whitesmoke;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.container{
+    display: flex;
+}
+.work-image{
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-left: 20px;
+}
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    right: 0;
+
+}
