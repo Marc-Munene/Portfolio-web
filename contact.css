@@ -9,6 +9,10 @@ body{
     color: whitesmoke;
     position: relative;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+}
 
 nav ul{
     display: flex;
@@ -26,10 +30,18 @@ nav ul li a{
 
 .contact{
     display: flex;
-   justify-items: center;
+   justify-content: center;
+   align-items: center;
     gap: 20px;
     
+    
 }
+/* .contact-logo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: auto;
+} */
 
 
 footer{
@@ -37,5 +49,6 @@ footer{
     display: flex;
     justify-content: end;
     right: 0;
+    
 
 }
